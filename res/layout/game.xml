@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+    
+    <ViewFlipper
+        android:id="@+id/ViewFlipper01"
+        android:layout_width="75dp"
+        android:layout_height="125dp"
+        android:layout_alignTop="@+id/ViewFlipper00"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:src="@drawable/game_num0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:src="@drawable/game_num1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/game_num2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/game_num3" />
+        </LinearLayout>
+    </ViewFlipper>
+
+    <ViewFlipper
+        android:id="@+id/ViewFlipper02"
+        android:layout_width="75dp"
+        android:layout_height="125dp"
+        android:layout_alignTop="@+id/ViewFlipper01"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/score2"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:src="@drawable/game_num0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:src="@drawable/game_num1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/game_num2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/game_num3" />
+        </LinearLayout>
+    </ViewFlipper>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/RL_player"
+        android:layout_width="fill_parent"
+        android:layout_height="95dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/player4"
+            android:layout_width="72dp"
+            android:layout_height="38dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/player2"
+            android:layout_marginRight="22dp" />
+
+        <ImageView
+            android:id="@+id/player3"
+            android:layout_width="72dp"
+            android:layout_height="38dp"
+            android:layout_alignTop="@+id/player4"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/player4" />
+
+        <ImageView
+            android:id="@+id/player1"
+            android:layout_width="72dp"
+            android:layout_height="38dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="14dp"
+            android:layout_marginLeft="20dp" />
+
+        <ImageView
+            android:id="@+id/player2"
+            android:layout_width="72dp"
+            android:layout_height="38dp"
+            android:layout_alignTop="@+id/player1"
+            android:layout_marginRight="11dp"
+            android:layout_toLeftOf="@+id/player3" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/score2"
+        android:layout_width="98dp"
+        android:layout_height="55dp"
+        android:layout_alignTop="@+id/score1"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/score3"
+        android:layout_width="98dp"
+        android:layout_height="55dp"
+        android:layout_alignLeft="@+id/ViewFlipper02"
+        android:layout_alignTop="@+id/score2" />
+
+    <ViewFlipper
+        android:id="@+id/ViewFlipper00"
+        android:layout_width="75dp"
+        android:layout_height="125dp"
+        android:layout_above="@+id/score1"
+        android:layout_marginBottom="182dp"
+        android:layout_marginLeft="40dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:src="@drawable/game_num0" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:src="@drawable/game_num1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/game_num2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/game_num3" />
+        </LinearLayout>
+    </ViewFlipper>
+
+    <ImageView
+        android:id="@+id/score1"
+        android:layout_width="98dp"
+        android:layout_height="55dp"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_alignRight="@+id/ViewFlipper00" />
+
+</RelativeLayout>

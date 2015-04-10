@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" 
+        android:scaleType = "fitXY"/>
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" 
+        android:scaleType = "fitXY"/>
+
+    <ImageView
+        android:id="@+id/player1"
+        android:layout_width="120dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/player2"
+        android:layout_marginLeft="30dp" />
+    
+    
+    <ImageView
+        android:id="@+id/player2"
+        android:layout_width="120dp"
+        android:layout_height="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="68dp"
+        android:layout_toRightOf="@+id/player1" />
+    
+    
+    <ImageView
+        android:id="@+id/player3"
+        android:layout_width="120dp"
+        android:layout_height="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="63dp"
+        android:layout_toRightOf="@+id/player2" />
+
+    <ImageView
+        android:id="@+id/player4"
+        android:layout_width="120dp"
+        android:layout_height="52dp"
+        android:layout_alignTop="@+id/player3"
+        android:layout_marginLeft="17dp"
+        android:layout_toRightOf="@+id/player3" />
+
+    <ImageView
+        android:id="@+id/score_imgbt"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_alignRight="@+id/winner_img"
+        android:layout_centerVertical="true" />
+    <Gallery
+        android:id="@+id/winner_ga"
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/player2"
+        android:layout_below="@+id/player3"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="180dp"
+        android:fadingEdge="none"
+        android:scaleType="fitXY"
+        android:scrollbars="none" />
+
+    <ImageView
+        android:id="@+id/winner_img"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/score_imgbt"
+        android:layout_alignLeft="@+id/player2"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="116dp" />
+
+    <ImageButton
+        android:id="@+id/imageButtonC"
+        android:layout_width="215dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="166dp"
+        android:layout_toRightOf="@+id/winner_ga"
+        android:layout_marginLeft="10dp"
+        android:background="#00000000"
+        android:scaleType="fitXY" 
+        android:src="@drawable/aa_05_06_continue_inactive"/>
+
+</RelativeLayout>
