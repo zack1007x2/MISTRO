@@ -1,6 +1,5 @@
 package info.zagama.mistro;
 
-import info.zagama.mistro.R;
 
 import java.util.Timer;
 import java.util.TimerTask;

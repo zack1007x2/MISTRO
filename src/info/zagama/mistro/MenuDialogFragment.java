@@ -1,6 +1,5 @@
 package info.zagama.mistro;
 
-import info.zagama.mistro.R;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.DialogFragment;

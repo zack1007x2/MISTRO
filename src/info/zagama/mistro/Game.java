@@ -1,6 +1,5 @@
 package info.zagama.mistro;
 
-import info.zagama.mistro.R;
 import info.zagama.mistro.GestureUtils.Screen;
 
 import java.util.Arrays;

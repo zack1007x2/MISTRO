@@ -1,5 +1,4 @@
 package info.zagama.mistro;
-import info.zagama.mistro.R;
 import android.app.Service;
 import android.content.Intent;
 import android.content.SharedPreferences;

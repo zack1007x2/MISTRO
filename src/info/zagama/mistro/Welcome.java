@@ -1,6 +1,5 @@
 package info.zagama.mistro;
 
-import info.zagama.mistro.R;
 import android.os.Bundle;
 import android.os.Handler;
 import android.app.Activity;

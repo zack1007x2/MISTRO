@@ -1,6 +1,5 @@
 package info.zagama.mistro;
 
-import info.zagama.mistro.R;
 import android.app.Activity;
 import android.content.ComponentName;
 import android.content.Context;
